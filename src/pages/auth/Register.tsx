@@ -1,14 +1,14 @@
 import AuthLayout from "@/components/layouts/AuthLayout";
 import { NavLink } from "react-router-dom";
-import { useForm, SubmitHandler } from "react-hook-form";
+// import { useForm, SubmitHandler } from "react-hook-form";
 
 
 // กำหนด interface สำหรับข้อมูลฟอร์ม
-interface IFormInput {
-  fullname: string;
-  email: string;
-  password: string;
-}
+// interface IFormInput {
+//   fullname: string;
+//   email: string;
+//   password: string;
+// }
 
 function Register() {
   document.title = "Register";
