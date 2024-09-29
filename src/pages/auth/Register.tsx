@@ -13,16 +13,16 @@ interface IFormInput {
 function Register() {
   document.title = "Register";
   // Create useForm hook
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<IFormInput>();
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   formState: { errors },
+  // } = useForm<IFormInput>();
 
   // Handle form submit
-  const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    console.log(data);
-  };
+  // const onSubmit: SubmitHandler<IFormInput> = (data) => {
+  //   console.log(data);
+  // };
 
   return (
     <AuthLayout>
